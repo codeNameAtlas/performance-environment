@@ -1,0 +1,17 @@
+{
+  "name": "env-performance",
+  "version": "1.0.0",
+  "description": "web-performance-environment",
+  "main": "index.js",
+  "engines": {
+    "node": "=9.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "requirements-check": "node check-version.js",
+    "postinstall": "npm run requirements-check"
+  },
+  "author": "hello@alexnavarrete.com",
+  "license": "ISC",
+  "dependencies": {}
+}
